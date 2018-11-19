@@ -30,11 +30,11 @@ GAPuino supports 2 main modes:
 
 A running process can be controlled through the internal upload commands:
 
-* ``load``, @TODO
-* ``reqloop``, @TODO
-* ``ioloop``, @TODO
-* ``start``, @TODO
-* ``wait``, @TODO
+* ``load``, Load loads a binary into RAM.
+* ``reqloop``, Reqloop implements workstation proxies for file access and more
+* ``ioloop``, Ioloop enables printf via the debug bridge
+* ``start``, Start starts execution of the binary on GAP8
+* ``wait``, Wait keeps the bridge active until the program terminates
 
 You can configure "boot mode" and list of upload commands using :ref:`projectconf`.
 Default values are:
